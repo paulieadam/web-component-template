@@ -1,4 +1,4 @@
-class WebComponentSkeleton extends HTMLElement {
+class WebComponentTemplate extends HTMLElement {
     constructor() {
         super();
         // Private variables
@@ -38,4 +38,4 @@ class WebComponentSkeleton extends HTMLElement {
     }
 }
 // Use unique but descriptive element and class names
-window.customElements.define("web-component-skeleton", WebComponentSkeleton);
+window.customElements.define("web-component-skeleton", WebComponentTemplate);
