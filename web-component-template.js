@@ -9,7 +9,7 @@ class WebComponentTemplate extends HTMLElement {
     connectedCallback() {
         // Add an initial template
         this._root.innerHTML = `
-            <p id="text">My Web Component Skeleton...</p>
+            <p id="text">My Web Component Template...</p>
         `;
         // Prefixing DOM elements with $
         // Store important elements for later use
@@ -38,4 +38,4 @@ class WebComponentTemplate extends HTMLElement {
     }
 }
 // Use unique but descriptive element and class names
-window.customElements.define("web-component-skeleton", WebComponentTemplate);
+window.customElements.define("web-component-template", WebComponentTemplate);
